@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manuplation Arry </title>
+    <style>
+        .post-title{
+            text-align: center;
+            font-size: 60px;
+        }
+        .post-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 20px;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .post-item{
+            box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.04);
+            padding: 20px;
+        }
+        @media (width < 740px ) {
+            .post-grid{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="post-title">New Post</h1>
+    <div class="post-grid"></div>
+
+      <!-- <div class="post-item">
+            <h1>Post Title</h1>
+            <h2>Post Author</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias vero sed ipsa animi voluptas ex, obcaecati iusto, ullam illo ut perferendis vitae perspiciatis error repudiandae veritatis fuga eaque suscipit accusamus.</p>
+        </div>
+
+        <div class="post-item">
+            <h1>Post Title</h1>
+            <h2>Post Author</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias vero sed ipsa animi voluptas ex, obcaecati iusto, ullam illo ut perferendis vitae perspiciatis error repudiandae veritatis fuga eaque suscipit accusamus.</p>
+        </div>
+
+        <div class="post-item">
+            <h1>Post Title</h1>
+            <h2>Post Author</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias vero sed ipsa animi voluptas ex, obcaecati iusto, ullam illo ut perferendis vitae perspiciatis error repudiandae veritatis fuga eaque suscipit accusamus.</p>
+        </div> -->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
