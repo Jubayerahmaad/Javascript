@@ -5,6 +5,7 @@ let students = ['Helal', 'Jubayer', 'Habib', 'Abdullah'];
 // students.shift(); delete list of arrys first item
 // students.pop(); delete list of arry last item
 // students.indexOf(); Take Out array possition 
+// Just Countinue
 
 console.log(students);
 
