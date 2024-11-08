@@ -8,7 +8,6 @@ fetch(postApi)
     // resolve the promise 
     return respone.json();
     
-
 })
 .then(function(posts){
     posts.forEach(function(item){
