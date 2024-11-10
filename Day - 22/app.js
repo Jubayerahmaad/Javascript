@@ -1,0 +1,1 @@
+console.dir(document); // all documantations
