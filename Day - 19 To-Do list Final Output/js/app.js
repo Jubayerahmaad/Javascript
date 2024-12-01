@@ -74,7 +74,7 @@ function renderItem() {
   });
 }
 
-// on page load
+// on pages load 
 window.onload = function(){
     let itemsFromLocalStorage = localStorage.getItem('todos');
     if(itemsFromLocalStorage){
